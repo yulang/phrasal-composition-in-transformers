@@ -1,0 +1,56 @@
+horse ran
+color ran
+gallop
+dissolve
+=== From Kintsch
+fire glowed
+face glowed
+burned
+beamed
+=== From Mitchell
+child strayed
+discussion strayed
+roamed
+digressed
+=== From Mitchell
+sales slumped
+shoulders slumped
+declined
+slouched
+=== From Mitchell
+the student washed the table.
+the table was clean. ##pos
+the student was clean. ##neg
+=== From Kintsch
+the student dropped the glass.
+the glass was broken. ##pos
+the student was broken. ##neg
+=== From Kintsch
+the doctor drank the water.
+the doctor was thirsty. ##pos
+the water was thirsty. ##neg
+=== From Kintsch
+the hunter shot the elk
+the elk was dead. ##pos
+the hunter was dead. ##neg
+=== From Kintsch
+the pain went away.
+Sarah took the aspirin. ##pos
+Sarah found the aspirin. ##neg
+=== From Kintsch
+Harry jumped in alarm.
+Harry exploded the paper bag. ##pos
+Harry inflated the paper bag. ##neg
+=== From Kintsch
+the deer died.
+the hiker shot the deer. ##pos
+the hiker aimed at the deer. ##neg
+=== From Kintsch
+the pot shone brightly.
+Ted scrubbed the pot. ##pos
+Ted found the pot. ##neg
+=== From Kintsch
+the camper was sad.
+the camper lost a knife. ##pos
+the camper dropped a knife. ##neg
+=== From Kintsch
