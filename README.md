@@ -4,17 +4,19 @@ This repo contains datasets and code for *Assessing Phrasal Representation and C
 The code is implemented with Huggingface's transformer v2.5.1. There are multiple API changes in their recent releases. And you may need to adjust related code if you are using a different version.
 # Repo structure
 - `src/` contains source code to generate dataset and perform analysis
-- `datasets` contains dataset for landmark test from (Kintsch 2001).
+- `datasets` contains dataset for landmark test from (Kintsch 2001), and datasets we used to get the metrics reported in the paper.
 # Dataset
 - Similarity correlation dataset: As mentioned in the paper, the full dataset can be downloaded here: http://saifmohammad.com/WebPages/BiRD.html. Please refer to the original paper for details about the dataset.
 - Paraphrase classification dataset: You can download ppdb-2.0-tldr from http://paraphrase.org.
 - Landmark experiment dataset: included in the repo. Exact from the serie of papers by Kintsch.
+
+You can use the datasets inclued in the dataset folder, or download the full dataset and run code to generate controlled dataset yourself. There are multiple configurations available to specify number of samples used, proportion of negative samples etc. in configuration.py.
 # Code
-- `main.py`
-- `workload_generator.py`
-- `configuration.py`
-- `kintsch_exp.py`
-- `analyzer`
+- `main.py`: main entrance for correlation and classification experiment
+- `workload_generator.py`: preprocessing logic. ppdb filtering and controlled dataset generation is implemented in this file.
+- `configuration.py`: configuration
+- `kintsch_exp.py`: main entrance for landmark experiment
+- `analyzer`: helper class to perform analysis
 # Usage
 1. update `configuration.py` to specify: a) dataset location, b) experiment you want to run and c) model class you want to test
 2. to run correlation or classification experiment, run `python main.py` (after you set proper configuration in configuration.py)
