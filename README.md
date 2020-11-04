@@ -1,5 +1,7 @@
-This repo contains datasets and code for *Assessing Phrasal Representation and Composition in Transformers*, by Lang Yu and Allyson Ettinger.
+This repo contains datasets and code for [*Assessing Phrasal Representation and Composition in Transformers*](https://arxiv.org/abs/2010.03763), by Lang Yu and Allyson Ettinger.
 
+# Notes
+I wrote two notes explaining the paper. They can be found [here](https://timur-yu.medium.com/analyzing-contextualized-embeddings-in-bert-and-other-transformer-models-214377e74a17).
 # Dependencies
 The code is implemented with Huggingface's transformer v2.5.1. There are multiple API changes in their recent releases. And you may need to adjust related code if you are using a different version.
 # Repo structure
