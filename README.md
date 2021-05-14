@@ -1,5 +1,5 @@
 # About
-This repo contains datasets and code for [*Assessing Phrasal Representation and Composition in Transformers*](https://arxiv.org/abs/2010.03763), by Lang Yu and Allyson Ettinger.
+This repo contains datasets and code for [*Assessing Phrasal Representation and Composition in Transformers*](https://www.aclweb.org/anthology/2020.emnlp-main.397.pdf), by Lang Yu and Allyson Ettinger.
 
 # Notes
 I wrote two notes explaining the paper. They can be found [here](https://timur-yu.medium.com/analyzing-contextualized-embeddings-in-bert-and-other-transformer-models-214377e74a17).
