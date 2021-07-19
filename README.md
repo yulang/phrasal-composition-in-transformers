@@ -1,5 +1,7 @@
 # About
-This repo contains datasets and code for [*Assessing Phrasal Representation and Composition in Transformers*](https://www.aclweb.org/anthology/2020.emnlp-main.397.pdf), by Lang Yu and Allyson Ettinger.
+This repo contains datasets and code for EMNLP 2020 paper [*Assessing Phrasal Representation and Composition in Transformers*](https://www.aclweb.org/anthology/2020.emnlp-main.397.pdf), by Lang Yu and Allyson Ettinger.
+
+Our follow-up paper [*On the Interplay Between Fine-tuning and Composition in Transformers*](https://arxiv.org/abs/2105.14668) is coming up at Findings of ACL 2021.
 
 # Notes
 I wrote two notes explaining the paper. They can be found [here](https://timur-yu.medium.com/analyzing-contextualized-embeddings-in-bert-and-other-transformer-models-214377e74a17).
